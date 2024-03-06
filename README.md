@@ -10,6 +10,6 @@
 </div>
 
 ## 🌐 Website
-Visit the [Nike_Jordan](https://faq-js-ten.vercel.app/) to explore the live site.
+Visit the [Nike_Jordan](https://nike-jordan-rho.vercel.app/) to explore the live site.
 
 ### <p align="center">Developer Julio Silva.</p>
