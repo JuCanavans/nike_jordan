@@ -1,0 +1,211 @@
+@import url("./_root.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --ft-family: "Archivo", sans-serif;
+    --cor-white: #FFFFFF;
+    --cor-primary: #121214;
+}
+
+body{
+    font-family: var(--ft-family);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: var(--cor-primary);
+    font-size: 24px;
+}
+
+section{
+    position: relative;
+    background-image: url("../img/image-michael-jordan.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.infor_product_jordan{
+    padding: 110px 0;
+    margin-left: 18%;
+    color: var(--cor-white);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.icon_jordan{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 8px ;
+}
+
+.icon_jordan img{
+    width: 38px;
+}
+
+.icon_jordan h4{
+    font-size: 24px;
+}
+
+.description_info{
+    width: 520px;
+    height: 107px;
+}
+
+.description_info h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.description_info p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenis_gold_jordan{
+    width: 80%;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.apresentation_tenis{
+    width: 590px;
+    text-align: center;
+}
+
+.apresentation_tenis h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--cor-primary);
+}
+
+.apresentation_tenis p{
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    color: var(--cor-primary);
+}
+
+.list_tenis{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.list_tenis li{
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.banner_tenis{
+    width: 380px;
+    height: 200px;
+    background-color:#F3F7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_tenis img:hover{
+    cursor: pointer;
+    rotate: -18deg;
+    transition-duration: 2s ;
+}
+
+.type_modelo{
+    display: flex;
+    flex-direction: column;
+}
+
+.type_modelo p{
+    color: var(--cor-primary);
+    font-size: 18px;
+}
+
+
+.type_modelo span{
+    color: #7CA2F4;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 700px){
+    header{
+        font-size: 16px;
+    }
+    section{
+        background-image: url("../img/banner_img_700px.svg");
+    }
+    .infor_product_jordan{
+        margin-left: 5%;
+    }
+    .icon_jordan img{
+        width: 24px;
+    }
+    .icon_jordan h4{
+        font-size: 18px;
+    }
+    .description_info{
+        width: 60%;
+    }
+    .description_info h2{
+        font-size: 24px;
+    }
+    .description_info p{
+        font-size: 18px;
+    }
+    /*Tenis*/
+    .apresentation_tenis{
+        width: 100%;
+    }
+    .apresentation_tenis h2{
+        font-size: 24px;
+    }
+    .apresentation_tenis p{
+        font-size: 16px;
+        margin: 0 15px;
+        line-height: 22.4px;
+    }
+    .banner_tenis{
+        width: 336px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header{
+        font-size: 14px;
+    }
+    section{
+        background-image: url("../img/banner_img_375px.svg");
+    }
+    .infor_product_jordan{
+        margin-left: 10%;
+    }
+    .description_info{
+        width: 80%;
+    }
+}
